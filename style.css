@@ -1,0 +1,200 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(./font/Roboto-Regular.ttf);
+}
+
+#main{
+  background-color: #CDCDCD;
+  width: 100%;
+  height: 100vh;
+  font-family: 'regular';
+}
+
+#head{
+  width: 100%;
+  height: 60px;
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#head #branding img{
+  width: 130px;
+  height: 40px;
+  padding-top: 8px;
+  margin-left: 5px;
+}
+
+#head #locateMe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#locateMe img{
+  width: 18px;
+  height: 18px;
+}
+#locateMe #locationPlace h6{
+  color: #CCCCCC;
+  letter-spacing: 0.5px;
+}
+#locateMe #locationPlace h5{
+  color: #FFFFFF;
+}
+
+#head #searchBox{
+  width: 45%;
+  height: 38px;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#searchBox #cate{
+  width: 50px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E6E6E6;
+  border-right: 1.5px #CDCDCD solid;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+#searchBox #cate p{
+  padding-left: 7px;
+  font-size: 14px;
+}
+#searchBox #searchText{
+  text-align: left;
+  padding-left: 5px;
+  color: #6F7373;
+}
+#searchBox #searchIcon{
+  width: 48px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3A847;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+#account{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  color: #FFFFFF;
+}
+#account #Country{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+#account #Country img{
+  width: 20px;
+  height: 13px;
+}
+#account #cart img{
+  width: 70px;
+  height: 45px;
+}
+
+
+#subHead{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #232F3E;
+  color: #FFFFFF;
+  font-size: 14.5px;
+}
+
+#firstPage{
+  width: 100%;
+  height: 89vh;
+  position: relative;
+}
+
+#firstPage #part1{
+  height: 38vh;
+  background-image: url("./images/appliances.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#firstPage #part2{
+  width: 100%;
+  height: 51vh;
+  background-image: linear-gradient(to bottom, #BC926A, #E1E2E1);
+}
+
+#firstPage .card{
+  width: 23%;
+  height: 400px;
+  background-color: #FFFFFF;
+
+}
+#firstPage #card1{
+  position: absolute;
+  bottom: 8px;
+  left: 20px;
+}
+#firstPage #card2{
+  position: absolute;
+  bottom: 8px;
+  left: 394px;
+}
+#firstPage #card3{
+  position: absolute;
+  bottom: 8px;
+  left: 774px;
+}
+#firstPage #card4{
+  position: absolute;
+  bottom: 8px;
+  left: 1153px;
+}
+
+.stage1a{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding-bottom: 22px;
+}
+
+.stage1a img{
+  width: 140px;
+  height: 90px;
+}
+.stage1a p{
+  font-size: 12px;
+}
+
+.card a{
+  text-decoration: none;
+  color: #0a778a;
+  padding-left: 19px;
+  font-size: 13px;
+}
+/* .card{
+  margin: 15px 10px;
+} */
+
+.card h3{
+  text-align: left;
+  padding: 24px 25px 20px 18px;
+  font-size: 22px;
+  line-height: 1.9vw;
+}
